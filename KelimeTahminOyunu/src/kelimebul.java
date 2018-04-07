@@ -58,8 +58,8 @@ public class kelimebul {
            String cevap = scanner.nextLine();
            if(cevap.equals("Evet")){
                devam = true;
-           }else if ( cevap=="Hayır") {
-               System.out.println("Lütfen 2 kelime dışında girmeyiniz");
+           }else if ( cevap.equals("Hayır")) {
+               System.out.println("Program kapatılıyor gene bekleriz :)");
                devam= false;
                break ;
            }else{
